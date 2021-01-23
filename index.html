@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yensil Digital post card</title>
-    <link rel="startsheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <style>
+        body {
+            font-family: 'Lucida Sans', Verdana, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <header>>
-            <h1>My Postcard</h1>
-        </header>
-        <structure>
-
-        </structure>
-        <footer>
-
-        </footer>
-
+        <div class="header"></div>
+            <div id="headline"><h1>My Postcard</h1></div>
+            <div id="img-head">
+            <img src="https://assets.breatheco.de/apis/img/icon/4geeks.png">
+            </div>
+        <div class="principal-text"></div>
+            <div class="text">
+                <p>Look how awesome! This is a postcard that I Created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+                <p>This is so cool, can't wait to start doing more stuff!!</p>
+            </div>
+            <div class=input></div>
+                <input type="text" id=fname value="Some Name"> <br></br>
+                <input type="text" id=femail value="Some Email"> <br></br>
+                <input type="text" id=fcommet value="Some Comment"> <br></br>
+        <div class=end-button></div>
+            <button type="button">Send my Postcard</button>
     </div>
 </body>
 </html>
